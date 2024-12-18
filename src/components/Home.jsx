@@ -42,7 +42,9 @@ const Home = () => {
             {/*Social Media icons  */}
             <div className="flex flex-col md:flex-row items-center justify-between space-y-5 md:space-y-0">
               <div className="space-y-3">
-                <h1 className="font-bold text-center">Avaliable On</h1>
+                <h1 className="font-bold text-center text-green-500">
+                  Avaliable On
+                </h1>
                 <ul className="flex gap-4">
                   <li>
                     <a
@@ -77,7 +79,9 @@ const Home = () => {
                 </ul>
               </div>
               <div className="space-y-2">
-                <h1 className="font-bold">Currently Working On</h1>
+                <h1 className="font-bold text-green-500">
+                  Currently Working On
+                </h1>
                 <div className="flex space-x-5">
                   <FaReact className="text-xl md:text-3xl hover:scale-100 duration-200 rounded-full border-[2px]" />
                   <IoLogoNodejs className="text-xl md:text-3xl hover:scale-100 duration-200 rounded-full border-[2px]" />
