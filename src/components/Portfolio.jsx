@@ -39,7 +39,10 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div name="Portfolio" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10">
+    <div
+      name="Portfolio"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
+    >
       <div>
         <h1 className="font-bold text-3xl mb-5">Portfolio</h1>
         <span className="underline font-semibold">Featured Projects</span>
@@ -57,14 +60,15 @@ const Portfolio = () => {
               <div>
                 <div className="px-2 font-bold text-xl mb-2">{name}</div>
                 <p className="px-2 text-gray-700">
-                  This is the value of react in future
+                  Repeating the same card limits showcasing my React skills and
+                  the true potential of the framework.
                 </p>
               </div>
               <div className="px-4 py-2 space-x-2 justify-around">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-blod px-4 py-2 rounded">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-blod px-3 py-1 rounded">
                   Video
                 </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-blod px-4 py-2 rounded">
+                <button className="bg-green-500 hover:bg-green-700 text-white font-blod px-3 py-1 rounded">
                   Source code
                 </button>
               </div>
